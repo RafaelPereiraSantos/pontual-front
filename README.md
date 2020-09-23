@@ -67,3 +67,73 @@ Os mantenedores dessa aplicação são:
 ### Licença
 
 Este projeto utiliza a licença [MIT](https://github.com/geovanasilva/pontual-front/blob/master/LICENSE).
+
+# Pontual Front
+
+## EN-US
+
+### About
+
+Pontual-Front application is responsible for being the visual resource of the Pontual project, which will consume the [Pontual-Back](https://github.com/geovanasilva/pontual-back) application.
+
+This application is under development. And its objectives are:
+
+- To clock in;
+- Detail information pertaining to the clock in, such as banked hours, beat adjustments and the like.
+
+### Technologies
+
+- To facilitate the development of the application, the framework [Next](https://nextjs.org/) is used.
+- [Typescript](https://www.typescriptlang.org/)
+- Linting with [ESLint](https://eslint.org/)
+- Formatting with [Prettier](https://prettier.io/)
+- Linting, type checking and some extra stuff preventively on commits [`husky`](https://github.com/typicode/husky)
+- Tests with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+
+### How to run the application
+
+#### Requirements
+
+In order for you to run the application on your machine, you must first ensure that you have installed [Node](https://nodejs.org/en/). With Node installed, you will already have access to NPM (Node's package manager).
+
+You can also use [Yarn](https://yarnpkg.com/)
+
+#### Installing dependencies
+
+After cloning the application, you must, through a command line terminal, enter the application's directory and execute the following command:
+
+```bash
+$ npm install
+```
+
+This command may take a few seconds or even minutes (it will vary according to the download speed of your internet) to finish running.
+
+#### Running application
+
+After performing the previous steps, just execute the following command in your command line terminal:
+
+```bash
+$ npm start
+```
+
+### How to test the application
+
+After you have cloned the project and installed the dependencies, for you to perform the application tests you must execute the following commands:
+
+```bash
+# For unit tests
+$ npm run test
+
+# For lint testing, type checking and unit tests
+$ npm run test-all
+```
+
+### Maintainers
+
+The maintainers of this application are:
+- [Geovana Silva](https://github.com/geovanasilva)
+- [Leonardo Santos](https://github.com/leonardossev)
+
+### License
+
+This project uses the [MIT](https://github.com/geovanasilva/pontual-front/blob/master/LICENSE) license.
